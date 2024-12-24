@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice(){
     let rand = Math.ceil(Math.random()*3);
     if(rand == 1)return 'rock';
